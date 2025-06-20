@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Kailash's Developer Portfolio
 
-## Getting Started
+> A clean, fast, and modern portfolio built with **Next.js 14**, **Tailwind CSS**, and **TypeScript** — designed to showcase projects, skills, and experience to land top-tier software engineering roles.
 
-First, run the development server:
+![Portfolio Screenshot](./public/preview.png) <!-- Optional: Add a real image -->
+
+---
+
+## 📌 Live Demo
+
+👉 [View Portfolio Website](https://your-portfolio-url.vercel.app)  
+*(Deployed on Vercel for optimal performance)*
+
+---
+
+## 🧠 Key Features
+
+- ⚡ **Built with Next.js 14** App Router
+- 🎨 **Dark/Light Mode Toggle**
+- 🧩 Modular architecture for scalability
+- 🚀 Blazing-fast load times (optimized images, code-splitting)
+- 📱 Fully **responsive** design
+- 🧠 Easily upgradable to use a backend or CMS
+
+---
+
+## 🧱 Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: TypeScript
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Icons/Assets**: Lucide, Heroicons, Framer Motion
+
+---
+
+## 🗂️ Folder Structure (Clean & Scalable)
+
+.
+├── app/ # Pages using Next.js App Router
+│ ├── page.tsx
+│ ├── about/
+│ └── projects/
+├── components/ # Reusable UI components
+├── data/ # Static data (projects, skills, etc.)
+├── lib/ # Utility functions & backend logic
+├── types/ # TypeScript interfaces
+├── public/ # Static assets
+├── styles/ # Global styles
+├── .env.local # Environment variables (API keys, etc.)
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+
+
+---
+
+## 💻 Setup Instructions
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+
+2. Install Dependencies
+npm install
+
+3. Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Customization
+Projects: Edit /data/projects.ts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Skills: Edit /data/skills.ts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dark Mode: Toggle logic in ThemeProvider.tsx
 
-## Learn More
+Resume: Replace public/resume.pdf with yours
 
-To learn more about Next.js, take a look at the following resources:
+📦 Deployment
+Easily deploy on Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+bash
+Copy
+Edit
+npx vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🙋‍♂️ Author
+Tanniru Venkata Kailash
+🔗 LinkedIn
+🐙 GitHub
+✉️ Email
 
-## Deploy on Vercel
+🤝 Contributing
+This portfolio is personal, but if you find issues or want to suggest improvements:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fork it
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a branch
+
+Submit a PR
